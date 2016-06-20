@@ -9,6 +9,8 @@ System.config({
   paths: {
     "github:*": "jspm_packages/github/*",
     "npm:*": "jspm_packages/npm/*",
+    "monterey-jspm": "monterey-jspm/index.js",
+    "monterey-jspm/*": "monterey-jspm/*",
     "*": "src/*",
     "root/*": "/*"
   },
