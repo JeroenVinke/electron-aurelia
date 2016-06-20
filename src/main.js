@@ -4,5 +4,5 @@ export function configure(aurelia) {
     .developmentLogging()
     .plugin('monterey-jspm');
 
-  aurelia.start().then(() => aurelia.setRoot());
+  aurelia.start().then(() => aurelia.setRoot('electron/app'));
 }
